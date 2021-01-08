@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Porfolio Julien MOINARD</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="portfolio.css"/>
+	<script type="text/javascript" src="script.js"></script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<nav id="navbar" style="display: none;">
+			<ul id="navigation">
+				<li><a href="#parcours" class="ancre">Présentation</a></li>
+				<li><a href="#cursus" class="ancre">Mon cursus</a></li>
+				<li><a href="#competences" class="ancre">Mes Compétences</a></li>
+				<li><a href="#projet" class="ancre">Mes Projets</a></li>
+				<li><a href="#veille" class="ancre">Ma veille</a></li>
+				<li><a href="#stage" class="ancre">Mes Stages</a></li>
+				<li><a href="#contact" class="ancre">Me contacter</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="popupCompetence">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>Développement WEB</p>
+				</div>
+				<div class="textePopup">
+					<p>
+						En cours ou en autonomie.<br>
+						Création de site web pour des projets durant les cours, les stages et pour mon portfolio. <br>
+						Utilisation de la méthode MVC, ainsi que du framework Symfony.
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupCompetence')[0].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+		<div class="popupCompetence">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>Développement Application</p>
+				</div>
+				<div class="textePopup">
+					<p>
+						En cours ou en autonomie.<br>
+						Création d'application Java et PYTHON durant les cours avec l'utilisation d'objets. <br>
+						Utilisation d'Android Studio pour coder une application mobile. <br>
+						Utilisation du langage APEX lors de mon stage à la MAAF. 
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupCompetence')[1].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+		<div class="popupCompetence">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>Développement Application</p>
+				</div>
+				<div class="textePopup">
+					<p>
+						En cours ou en autonomie.<br>
+						Création de base de données lors de projets durant les cours et les stages. <br>
+						Utilisation de logiciel permettant la création de MCD et de MLR. <br> 
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupCompetence')[2].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+
+		<div class="popupPPE">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>PPE - Médiathèque de Cholet</p>
+				</div>
+				<div class="textePopup">
+					<p class="span">
+						Contexte :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						<span style="padding:0 0 0 20px;">Le</span> contexte de ce projet était de permettre à la médiathèque intercommunale de Cholet de pouvoir gérer informatiquement leurs ressources. Leur souhait était d’avoir une application web leur permettant de gérer les achats, les emprunts de livres et les adhérents. L’application ne devant être utilisée que par le personnel de la médiathèque. <br>
+						Pour ce projet, nous avons dû utiliser un serveur MySQL, un outil comme « Sublime Text » et la méthode MVC pour coder l’application. <br>
+					</p>
+					<p class="span">
+						Fonctionnalités :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						Quand le personnel se connecte à l’application, il est dirigé sur une page lui donnant accès à toutes les fonctionnalités dont il pourrait avoir besoin. <br> <br>
+					</p>
+						<img src="Images/PPE1/acc.PNG" width="60%;" style="margin-left: 20%;"> <br> <br>
+					<p>
+						Le personnel de la bibliothèque peut grâce à des formulaires, ajouter des adhérents, des livres (ou des exemplaires de livres) ainsi que des emprunts. <br>
+					</p>
+						<img src="Images/PPE1/ajout-adherents.PNG" width="40%" style="margin-left: 30%;"> <br> <br>
+						<img src="Images/PPE1/ajout-exemplaire.PNG" width="40%" style="margin-left: 30%;"><br> <br>
+					<p>
+						Le personnel peut aussi vérifier s'il y a des emprunts qui arrive en fin de date et voir l’adhérent qui l’a emprunté. <br>
+					</p>
+					<p class="span">
+						Synthèse :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						Le projet a été mené jusqu’au bout avec toutes les fonctionnalités opérationnelles de l’application. Quand une personne se connecte elle peut accéder aux listes des adhérents, aux ouvrages disponibles et aux emprunts non rendus. Ce projet m’a permis d’apprendre et mettre en place la méthode MVC dans un projet, ainsi que d’améliorer mes connaissances en PHP. <br> <br>
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupPPE')[0].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+		<div class="popupPPE">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>PPE - Laboratoire LBc</p>
+				</div>
+				<div class="textePopup">
+					<p class="span">
+						Contexte :
+					</p>
+					<hr>
+					<p>
+						Le contexte de ce projet était de permettre au laboratoire LBc de pouvoir mettre à disposition du service de gestion du personnel une application web permettant la gestion des frais de déplacements des visiteurs médicaux. L’application ne pouvant être utilisée que par le personnel du service de gestion du personnel, ainsi que les visiteurs médicaux voulant déposer leurs frais pour être remboursés. <br>
+						Pour ce projet, nous avons dû utiliser un serveur MySQL, un outil comme « Sublime Text » et la méthode MVC pour coder l’application.
+					</p>
+					<p class="span">
+						Fonctionnalités :
+					</p>
+					<hr>
+					<p>
+						Quand une personne se connecte (avec son login et mot de passe), elle est automatiquement détectée en tant que visiteur ou gestionnaire du personnel. <br>
+						<img src="Images/PPE2/acc-V.PNG" width="80%">
+						<img src="Images/PPE2/acc-C.PNG" width="80%"><br>
+						Suite à cela, si c'est un visiteur, il peut soit ajouter des frais ou consulter l’historique de ses fiches. <br>
+						Si c’est un membre du service de gestion du personnel, il peut valider les fiches qui ont été préalablement remplies par les visiteurs. <br>
+					</p>
+					<p class="span">
+						Synthèse :
+					</p>
+					<hr>
+					<p>
+						Le projet a été mené jusqu’au bout avec toutes les fonctionnalités opérationnelles de l’application. Quand une personne se connecte elle peut, selon ses fonctions, ajouter ou valider des frais. <br> <br>
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupPPE')[1].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+
+		<div class="popupStage">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>Stage première année</p>
+				</div>
+				<div class="textePopup">
+					<p class="span">
+						Présentation de l’entreprise :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						La MAAF est une société d’assurance nationalement reconnue et son siège social se trouve à Chauray, Niort (79). Il s’agit d’une des enseignes du groupe COVÉA, une SGAM (Société de Groupe d’Assurance Mutuelle), regroupant aussi les MMA, la GMF et Apgis.
+					</p>
+					<p class="span">
+						Tâches à réaliser :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						M’adapter au CRM Salesforce ainsi qu’à la gestion de projet de manière Agile. Pour prendre en mains Salesforce j’ai dû utiliser Trailhead, qui est un site uniquement basé sur l’apprentissage de Salesforce, avec les fonctionnalités et les différents aspects de programmations qui y sont liés. Salesforce utilise une programation orientée objets avec le langage APEX, plus une infrastructure de développement Web, nommée Visualforce. Il utilise aussi pour la gestion des bases de données les langages SOQL et SOSL. <br>
+						La mission était la création de rapport et d’un tableau de bord Salesforce pour vérifier le bon fonctionnement d’un batch de purge. Le premier rapport permet de visualiser les demandes qui arrivaient au terme prévu, demande ouverte depuis plus de 25 mois (droit à l’oubli). Tandis que le deuxième permet de voir les demandes qui auraient dû être supprimées par le batch de purge. Le tableau de bord permet de voir plus simplement ces deux rapports en évitant les détails inutiles et en priorisant les informations majeures. <br>
+						Ma troisième mission était la création d’un batch de purge similaire à celui de ma deuxième mission. Le batch avait pour but de supprimer certains contrats qui avaient des particularités (contrats qui ne sont plus liés à une demande ou encore ceux qui devraient être supprimé en fonction du droit à l’oubli). <br>
+						Ma dernière mission était d’écrire et de réaliser des tests pour le batch de purge créé lors de ma troisième mission.
+					</p>
+					<p class="span">
+						Réalisation :
+					</p>
+					<hr size="#" width="50%">
+					<p class="real">
+						Le tableau de bord réalisé au cours de ma deuxième mission. <br>
+						<img src="Images/Stage1/tableauDeBord.PNG"> <br> <br>
+						Extrait du batch de purge réalisé lors de ma troisième mission. <br>
+						<img src="Images/Stage1/batchPurge.PNG"> <br> <br>
+						Extrait du test du batch de purge.
+						<img src="Images/Stage1/testBatchPurge.PNG"> <br>
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupStage')[0].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+		<div class="popupStage">
+			<div class="affichage">
+				<div class="titrePopup">
+					<p>Stage deuxième année</p>
+				</div>
+				<div class="textePopup">
+					<p class="span">
+						Présentation de la structure :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						Beaupréau-en-Mauges est la 5ème commune du Maine-et-Loire. Elle est situé au coeurs des Mauges, entre les villes d'Angers, Cholet et Nantes.
+					</p>
+					<p class="span">
+						Tâches à réaliser :
+					</p>
+					<hr size="#" width="50%">
+					<p>
+						Réaliser un applicatif web permettant une gestion informatique des documents pour le service d’urbanisme. Cet applicatif devait permettre l’ajout et la modification des documents, mais aussi un triage grâce à des filtres, et en sortir des statisques. De plus l’applicatif devait pouvoir générer des documents sous format PDF.
+					</p>
+					<p class="span">
+						Réalisation :
+					</p>
+					<hr size="#" width="50%">
+					<p class="real">
+						Accueil vers le site permettant le choix du type de document d'urbanisme<br>
+						<img src="Images/Stage2/accSite.PNG"> <br> <br>
+						Accueil vers la partie Permis de Construire (exemple d'un onglets)<br>
+						<img src="Images/Stage2/accPC.PNG"> <br> <br>
+						Tableau visualisant tous les Permis de Construire<br>
+						<img src="Images/Stage2/allPC.PNG"> <br> <br>
+						Partie statistique des Permis de Construire<br>
+						<img src="Images/Stage2/statPC.PNG"> <br> <br>
+						Partie génération des documents (au choix) d'un Permis de Construire<br>
+						<img src="Images/Stage2/genPC.PNG"> <br> <br>
+					</p>
+				</div>
+				<div class="buttonPopup">
+					<input type="button" name="appplus" value="FERMER" class="plus" onclick="document.getElementsByClassName('popupStage')[1].style.display = 'none'; document.documentElement.style.overflow = 'visible';">
+				</div>
+			</div>
+			<div class="screen" onclick="this.parentNode.style.display = 'none'; document.documentElement.style.overflow = 'visible';"></div>
+		</div>
+
+		<div id="accueil" class="partie">
+			<div class="texte" align="right">
+				<h1 id="nom">Julien MOINARD<span>.</span></h1>
+				<h2>Étudiant en <strong>BTS SIO option SLAM</strong> à l'<strong>ESUPEC</strong> de <strong>Cholet</strong></h2>
+				<a href="#parcours" class="ancre"><input type="button" name="explorer" value="Explorer"></a>			
+			</div>
+		</div>
+		<div id="parcours" class="partie">
+			<div class="texte">
+				<h3>PRÉSENTATION</h3>
+				<div class="test">
+					<div>
+						<p id="presentation">
+							Bienvenue sur mon Porfolio, <br>
+							Je suis Julien MOINARD, actuellement en seconde année de BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) à l'ESUPEC de Cholet. <br>
+							Avant mon BTS, j'ai obtenu mon baccalauréat S option SI avec la spécialité Mathématiques. <br>
+							J'ai choisi l'option SLAM car j'ai toujours voulu comprendre ce qui se passait lorsceque nous utilisons des applications, des logiciels, ou même savoir comment est élaboré un site. <br>
+						</p>
+					</div>
+					<div>
+						<img src="Images/presentation.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cursus" class="partie">
+			<div class="texte">
+				<h3>MON CURSUS</h3>
+				<div id="table">
+					<div id="formation">
+						<h4><span>Formation</span></h4>
+						<table id="tableFormation" align="right">
+							<tr>
+								<td>
+									<strong class="date">2018 - 2020</strong> <br>
+									BTS SIO option SLAM à l'ESUPEC de Cholet (49) <br> <br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<strong class="date">2019</strong> <br>
+										Obtention du CACES 1, 3 et 5 <br> <br>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<strong class="date">2018</strong> <br>
+										Obtention du BAC S SI (Sciences de l'Ingénieurs), Spécialité Mathémathique, à Fontenay-le-Comte (85)
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="experiences">
+						<h4><span>Expériences</span></h4>
+						<table id="tableExperience">
+							<tr>
+								<td>
+									<p>
+										<strong class="date">2020</strong> <br>
+										Stage de BTS à la Communauté de Communes de Beaupréau en Mauges de 5 semaines
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<strong class="date">2019</strong> <br>
+										Stage de BTS au Siège Social de la MAAF à Niort de 6 semaines <br>
+										Travail Saisonnier chez BOUY SA 
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="competences" class="partie">
+			<div class="texte">
+				<h3>MES COMPÉTENCES</h3>
+				<div id="mainCompetences">
+					<div id="web" class="typeCompetence">
+							<img src="Images/WEB.png" style="width: 20%;">  <br>
+						<p>
+							<strong>Développement WEB</strong> <br>
+							HTML / CSS / PHP <br>
+						</p>
+							<input type="button" name="webplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupCompetence')[0].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';">
+					</div>
+					<div id="dev" class="typeCompetence">
+							<img src="Images/APP.png" style="width: 20%;"> <br>
+						<p>
+							<strong>Développement Application</strong> <br>
+							JAVA / PYTHON / APEX <br>
+						</p>
+							<input type="button" name="appplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupCompetence')[1].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';">
+					</div>
+					<div id="BDD" class="typeCompetence">
+							<img src="Images/BDD.png" style="width: 20%;">  <br>
+						<p>
+							<strong>Gestion de Bases de Données</strong> <br>
+							SQL / SOQL / MLRD <br>
+						</p>
+							<input type="button" name="bddplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupCompetence')[2].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="projet" class="partie">
+			<div class="texte">
+				<h3>MES PROJETS</h3>
+				<div id="mainPPE">
+					<div id="projet1" class="PPE">
+						<strong>PPE - Médiathèque de Cholet</strong> <br>
+						<img src="Images/PPE1/logo.png"> <br>
+						<p>
+							Ce projet avait pour but de permettre à la médiathèque de Cholet de gérer ses adhérents, ses livres et exemplaires, ainsi que ses emprunts.<br>
+						</p>
+						<input type="button" name="webplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupPPE')[0].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';">
+					</div>
+					<div id="projet2" class="PPE">
+						<strong>PPE - Laboratoire LBc</strong> <br>
+						<img src="Images/PPE2/logo.PNG" style="margin-top: 5px; margin-bottom: 20px;"> <br>
+						<p>
+							Ce projet a pour but de permettre au laboratoire LBc de pouvoir gérer les frais des visiteurs médicaux pour pouvoir les rembourser après leurs visites.<br>
+						</p>
+						<input type="button" name="webplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupPPE')[1].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="veille" class="partie">
+			<div class="texte">
+				<h3>MÉTHODE DE VEILLE</h3>
+				<div id="methodeVeille">
+					<p>
+						Il existe deux méthodes pour pouvoir réaliser une veille, la méthode PUSH et la méthode PULL. <br>
+						La première est la plus classique, l’utilisateur va régulièrement sur Internet pour en recueillir les informations les plus récentes dans un domaine particulier. Elle comprend plusieurs étapes :
+						<ul>
+							<li>Définir le profil recherché</li>
+							<li>Relancer la recherche</li>
+							<li>Évaluer l’information obtenue</li>
+						</ul>
+						Cette méthode peux être très efficace par la pertinence des informations obtenues.
+						<br> <br>
+						La méthode PUSH va fonctionner de manière similaire. L’utilisateur doit encore définir le profil recherché, mais après cela il reçoit une liste d’articles qui pourraient l’intéresser et qui sont en rapport avec le thème recherché. 
+					</p>
+				</div>
+				<h3>MA VEILLE SUR SAMSUNG</h3>
+				<div id="listeArticle">
+					<div class="article">
+						<img src="Images/Capteur-empreinte.jpg">
+						<h4>Samsung préparerait un lecteur d’empreintes sous l’écran <br>beaucoup plus grand que celui des S10</h4>
+						<p>Cliquez sur le bouton pour plus d'informations</p>
+						<a href="https://www.phonandroid.com/galaxy-s11-samsung-preparerait-lecteur-empreintes-sous-ecran-beaucoup-plus-grand.html" target="_blank" >
+							<img src="Images/G.png">
+						</a>
+					</div>
+					<div class="article">
+						<img src="Images/samsung-ecran-extensible.jpg">
+						<h4>APRÈS L’ÉCRAN PLIABLE, <br>SAMSUNG PLANCHE SUR L’ÉCRAN EXTENSIBLE !</h4>
+						<p>Cliquez sur le bouton pour plus d'informations</p>
+						<a href="https://actus.sfr.fr/tech/smartphones/apres-l-ecran-pliable-samsung-planche-sur-l-ecran-extensible-201909240007.html" target="_blank">
+							<img src="Images/G.png">
+						</a>
+					</div>
+					<div class="article">
+						<img src="Images/samsung-sans-bord.jpg">
+						<h4>Samsung travaille sur un smartphone <br>sans aucune bordure ni encoche</h4>
+						<p>Cliquez sur le bouton pour plus d'informations</p>
+						<a href="https://www.frandroid.com/marques/samsung/641473_samsung-travaille-sur-un-smartphone-sans-aucune-bordure-ni-encoche" target="_blank">
+							<img src="Images/G.png">
+						</a>
+					</div>
+					<div class="article">
+						<img src="Images/samsung-zoom-5.jpg">
+						<h4>Samsung Galaxy S11 : son zoom optique x5 <br>entre en dernière phase de test</h4>
+						<p>Cliquez sur le bouton pour plus d'informations</p>
+						<a href="https://www.frandroid.com/marques/samsung/630489_samsung-galaxy-s11-son-zoom-optique-x5-entre-en-derniere-phase-de-test" target="_blank"	>
+							<img src="Images/G.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="stage" class="partie">
+			<div class="texte">
+				<h3>MES STAGES</h3>
+				<div id="mainStage">
+					<div id="projet1" class="stage">
+						<strong>Stage première année</strong> <br>
+						<img src="Images/Stage1/logo.png"> <br>
+						<p>
+							Stage de 6 semaines réalisé au siège social de la MAAF, à Chauray (79).<br>
+						</p>
+						<input type="button" name="webplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupStage')[0].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';" style="margin-top: 30px;">
+					</div>
+					<div id="projet2" class="stage">
+						<strong>Stage deuxième année</strong> <br>
+						<img src="Images/Stage2/logo.jfif"> <br>
+						<p>
+							Stage de 5 semaines réalisé à la Communauté de Communes de Beaupréau en Mauges (49).<br>
+						</p>
+						<input type="button" name="webplus" value="PLUS" class="plus" onclick="document.getElementsByClassName('popupStage')[1].style.display = 'initial'; document.documentElement.style.overflow = 'hidden';" style="margin-top: 20px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="partie">
+			<div class="texte">
+				<h3>ME CONTACTER</h3>
+				<div>
+					<h4>
+						Adresse mail : <span>c.julien.moinard@gmail.com</span>
+					</h4>
+					<h4>
+						Numéro de portable : <span>07.51.63.95.00</span>
+					</h4>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<h3>À propos</h3>
+			<p>
+				Portfolio de Julien MOINARD, étudiant en 2ème année de BTS SIO option SLAM à l'ESUPEC de Cholet
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
