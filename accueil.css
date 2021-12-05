@@ -1,0 +1,35 @@
+#accueil {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background: url(img/home_bkg.png) no-repeat center fixed;
+    user-select: none;
+}
+
+#accueil h1 {
+    padding: 350px 0 60px 0;
+    font-size: 4rem;
+    color: #C9DAEA;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn {
+    background-color: transparent;
+    color: #C9DAEA;
+    padding: 0.75rem 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: 4px solid #C9DAEA;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.btn:hover {
+    border: 4px solid #290D6B;
+    background-color: #290D6B;
+    color: white;
+}

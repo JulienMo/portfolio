@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em "Raleway", Arial, sans-serif;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+main>div {
+    padding: 120px 0 80px 0;
+}
+
+/* Permet de cacher la barre de scroll */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    padding: 0 0 40px 0;
+    width: 100vw;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+    user-select: none;
+    font-size: 1.25rem;
+}
+
+.navbar>ul>li>a {
+    color: #A99999;
+}
+
+.navbar.scroll {
+    background-color: white !important;
+}
+
+.navbar>ul {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar>ul>li {
+    margin: 5px 50px;
+    line-height: 50px;
+}
+
+.navbar.scroll>ul>li>a {
+    color: #0D1321;
+}
+
+
+#li-accueil {
+    width: 32%;
+}
+
+#li-accueil a{
+    cursor: default;
+    font-weight: bold;
+    color: transparent !important;
+}
+
+#li-accueil.scroll a{
+    cursor: pointer;
+    color: black !important;
+}
+
+#li-contact {
+    width: 32%;
+    text-align: right;
+}
+
+#li-contact a {
+    height: 100%;
+    color: #290D6B;
+    padding: 10px 20px;
+    background-color: rgba(242,242,242, 0.75);
+    border-radius: 30px;
+}
+
+#li-contact.scroll a {
+    color: black;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+#li-contact.scroll a:hover{
+    background-color: #290D6B;
+    color: white;
+}
+/* ACCUEIL */
+
+/* CURSUS */
+
+/* COMPETENCES */
+
+/* PROJET */
+
+/* POP UP */
+
+
+#contact div {
+    text-align: center;
+}
+
+#contact img {
+    width: 30px;
+    height: 30px;
+}

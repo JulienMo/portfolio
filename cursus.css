@@ -1,0 +1,242 @@
+#cursus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cursus>div {
+    width: 100%;
+    margin: 40px 0;
+}
+
+#cursus h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 20px 0 40px 0;
+}
+
+.formation::before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 4px;
+    background-color: #A99999;
+}
+
+.formation-inverse::before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 4px;
+    background-color: #A99999;
+}
+
+.date {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #F8F8F8;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.formation {
+    text-align: right;
+}
+
+.formation p.hover, .formation p.hover::before, .formation:hover::before {
+    background-color: #CE332E;
+    color: white;
+}
+
+.formation strong.hover {
+    color: #CE332E;
+}
+
+.formation-inverse p.hover, .formation-inverse p.hover::before, .formation-inverse:hover::before {
+    background-color: #CE332E;
+    color: white;
+}
+
+.formation-inverse strong.hover {
+    color: #CE332E;
+}
+
+.formation, .formation-inverse {
+    position: relative;
+    padding: 0 11%;
+}
+
+.formation p, .formation-inverse p {
+    width: 40%;
+    border: 2px solid #A99999;
+    padding: 20px;
+    background-color: #F8F8F8;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.formation strong, .formation-inverse strong {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+}
+
+.formation span, .formation-inverse span {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 0 0 40px 0;
+}
+
+.formation p::before {
+    content: "";
+    border-top: 2px solid #A99999;
+    border-right: 2px solid #A99999;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.formation-inverse p::before {
+    content: "";
+    border-bottom: 2px solid #A99999;
+    border-left: 2px solid #A99999;
+    background-color: #F8F8F8;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.formation-inverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* FORMATION */
+
+.experience::before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 4px;
+    background-color: #A99999;
+}
+
+.experience-inverse::before {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 4px;
+    background-color: #A99999;
+}
+
+.date {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #F8F8F8;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.experience {
+    text-align: right;
+}
+
+.experience p.hover, .experience p.hover::before, .experience:hover::before {
+    background-color: #CE332E;
+}
+
+.experience strong.hover {
+    color: #CE332E;
+}
+
+.experience-inverse p.hover, .experience-inverse p.hover::before, .experience-inverse:hover::before {
+    background-color: #CE332E;
+}
+
+.experience-inverse strong.hover {
+    color: #CE332E;
+}
+
+.experience-inverse.hover {
+    background-color: #CE332E;
+}
+
+.experience, .experience-inverse {
+    position: relative;
+    padding: 0 11%;
+}
+
+.experience p, .experience-inverse p {
+    width: 40%;
+    border: 2px solid #A99999;
+    padding: 20px;
+    background-color: #F8F8F8;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience p::before {
+    content: "";
+    border-top: 2px solid #A99999;
+    border-right: 2px solid #A99999;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-inverse p::before {
+    content: "";
+    border-bottom: 2px solid #A99999;
+    border-left: 2px solid #A99999;
+    background-color: #F8F8F8;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-inverse {
+    display: flex;
+    flex-direction: row-reverse;
+}

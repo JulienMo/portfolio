@@ -1,0 +1,50 @@
+#competenceGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 5vw;
+}
+
+.typeCompetence {
+    width: 20vw;
+}
+
+.typeCompetence>h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 15px 0;
+}
+.resumeCompetence{
+    position: relative;
+    border-left: 1px solid #0D1321;
+    padding: 0 0 20px 20px;
+}
+.resumeCompetence>h3 {
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.resumeCompetence::before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0;
+    z-index: 2;
+    background-color: #CE332E;
+    border: 2px solid #CE332E;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.resumeCompetence ul {
+    text-indent: -20px;
+    margin-left: 20px;
+}
+.resumeCompetence li {
+    list-style: inside;
+    line-height: 30px;
+}
