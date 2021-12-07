@@ -114,10 +114,6 @@ function fillPopup(open, text){
     });
 }
 
-popupContainer.addEventListener('click', () => {
-    popupContainer.classList.remove('active');
-});
-
 closeTop.addEventListener('click', () => {
     popupContainer.classList.remove('active');
 });
@@ -128,28 +124,28 @@ closeBottom.addEventListener('click', () => {
 
 const txtProjet = [{
     id: "0",
+    titre: "Projet ESAIP - Design4Green",
+    p1: "<h2>Contexte</h2><p></p>",
+    p2: "<h2>Fonctionnalités</h2><p></p>",
+    p3: "<h2>Synthèse</h2><p></p>",
+},{
+    id: "1",
     titre: "Projet IOT ESAIP - Voiture Autonome",
     p1: "<h2>Contexte</h2><p></p>",
     p2: "<h2>Fonctionnalités</h2><p></p>",
     p3: "<h2>Synthèse</h2><p></p>",
 }, {
-    id: "1",
+    id: "2",
     titre: "Projet ESUPEC - Médiathèque",
     p1: "<h2>Contexte</h2><p>Le contexte de ce projet était de permettre à la médiathèque intercommunale de Cholet de pouvoir gérer informatiquement leurs ressources. Leur souhait était d’avoir une application web leur permettant de gérer les achats, les emprunts de livres et les adhérents. L’application ne devant être utilisée que par le personnel de la médiathèque.<br> Pour ce projet, nous avons dû utiliser un serveur MySQL, un outil comme « Sublime Text » et la méthode MVC pour coder l’application.</p>",
     p2: "<h2>Fonctionnalités</h2><p>Quand le personnel se connecte à l’application, il est dirigé sur une page lui donnant accès à toutes les fonctionnalités dont il pourrait avoir besoin. <br> <br><img src='img/Projet1/acc.PNG'> <br> <br>Le personnel de la bibliothèque peut grâce à des formulaires, ajouter des adhérents, des livres (ou des exemplaires de livres) ainsi que des emprunts. <br><projetHover src='Images/Projet1/ajout-adherents.PNG'> <br> <br><img src='img/Projet1/ajout-exemplaire.PNG'><br> <br>Le personnel peut aussi vérifier s'il y a des emprunts qui arrive en fin de date et voir l’adhérent qui l’a emprunté. <br></p>",
     p3: "<h2>Synthèse</h2><p>Le projet a été mené jusqu’au bout avec toutes les fonctionnalités opérationnelles de l’application. Quand une personne se connecte elle peut accéder aux listes des adhérents, aux ouvrages disponibles et aux emprunts non rendus. Ce projet m’a permis d’apprendre et mettre en place la méthode MVC dans un projet, ainsi que d’améliorer mes connaissances en PHP.</p>",
 }, {
-    id: "2",
+    id: "3",
     titre: "Projet ESUPEC – Laboratoire LBc",
     p1: "<h2>Contexte</h2><p>Le contexte de ce projet était de permettre au laboratoire LBc de pouvoir mettre à disposition du service de gestion du personnel une application web permettant la gestion des frais de déplacements des visiteurs médicaux. L’application ne pouvant être utilisée que par le personnel du service de gestion du personnel, ainsi que les visiteurs médicaux voulant déposer leurs frais pour être remboursés. Pour ce projet, nous avons dû utiliser un serveur MySQL, un outil comme « Sublime Text » et la méthode MVC pour coder l’application.</p>",
     p2: "<h2>Fonctionnalités</h2><p>Quand une personne se connecte (avec son login et mot de passe), elle est automatiquement détectée en tant que visiteur ou gestionnaire du personnel. <br><img src='img/Projet2/acc-V.PNG'><img src='img/Projet2/acc-C.PNG'><br> Suite à cela, si c'est un visiteur, il peut soit ajouter des frais ou consulter l’historique de ses fiches. <br> Si c’est un membre du service de gestion du personnel, il peut valider les fiches qui ont été préalablement remplies par les visiteurs. <br></p>",
     p3: "<h2>Synthèse</h2><p>Le projet a été mené jusqu’au bout avec toutes les fonctionnalités opérationnelles de l’application. Quand une personne se connecte elle peut, selon ses fonctions, ajouter ou valider des frais.</p>",
-}, {
-    id: "3",
-    titre: "Projet ESAIP - Design4Green",
-    p1: "<h2>Contexte</h2><p></p>",
-    p2: "<h2>Fonctionnalités</h2><p></p>",
-    p3: "<h2>Synthèse</h2><p></p>",
 }];
 
 const txtStage = [{

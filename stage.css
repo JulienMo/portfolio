@@ -1,14 +1,15 @@
 #stageGrid {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 50px 100px;
 }
 
 .linkStage {
+    margin: auto;
     width: 25%;
     height: 45vh;
     background-color: red;
-    margin: 0 15px 0 0;
     cursor: pointer;
     border-radius: 5px;
     user-select: none;

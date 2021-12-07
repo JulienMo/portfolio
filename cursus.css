@@ -134,7 +134,7 @@
 }
 
 
-/* FORMATION */
+/* EXPERIENCE */
 
 .experience::before {
     content: '';
@@ -176,16 +176,12 @@
     background-color: #CE332E;
 }
 
-.experience strong.hover {
+.experience strong.hover, .experience-inverse strong.hover {
     color: #CE332E;
 }
 
 .experience-inverse p.hover, .experience-inverse p.hover::before, .experience-inverse:hover::before {
     background-color: #CE332E;
-}
-
-.experience-inverse strong.hover {
-    color: #CE332E;
 }
 
 .experience-inverse.hover {
@@ -239,4 +235,27 @@
 .experience-inverse {
     display: flex;
     flex-direction: row-reverse;
+}
+
+
+.experience strong, .experience-inverse strong {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+}
+
+.experience span, .experience-inverse span {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 0 0 40px 0;
+}
+
+.experience p.hover, .experience p.hover::before, .experience:hover::before {
+    background-color: #CE332E;
+    color: white;
+}
+
+.experience-inverse p.hover, .experience-inverse p.hover::before, .experience-inverse:hover::before {
+    background-color: #CE332E;
+    color: white;
 }
