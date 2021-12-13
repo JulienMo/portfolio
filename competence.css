@@ -5,6 +5,12 @@
     padding: 20px 5vw;
 }
 
+#competences {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .typeCompetence {
     width: 20vw;
 }
