@@ -3,7 +3,7 @@ const nav = document.querySelector('.navbar');
 const acc = document.querySelector('#li-accueil');
 const ctc = document.querySelector('#li-contact');
 window.addEventListener('scroll', () => {
-    if (window.scrollY > window.screen.height) {
+    if (window.scrollY > (window.screen.height)) {
         nav.classList.add('scroll');
         acc.classList.add('scroll');
         ctc.classList.add('scroll');
