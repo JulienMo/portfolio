@@ -86,6 +86,7 @@ let closeBottom = document.querySelector('#closeBottom');
 
 const listProjet = document.querySelectorAll('.linkProjet');
 const listStage = document.querySelectorAll('.linkStage');
+const listBenevole = document.querySelectorAll('.linkBenevole');
 
 listProjet.forEach((open) => {
     open.addEventListener('click', () => {
@@ -96,6 +97,12 @@ listProjet.forEach((open) => {
 listStage.forEach((open) => {
     open.addEventListener('click', () => {
         fillPopup(open, txtStage);
+    });
+});
+
+listBenevole.forEach((open) => {
+    open.addEventListener('click', () => {
+        fillPopup(open, txtBenevole);
     });
 });
 
@@ -160,4 +167,18 @@ const txtStage = [{
     p1: "<h2>Présentation du stage</h2><p>Beaupréau-en-Mauges est la 5ème commune du Maine-et-Loire. Elle est située au cœurs des Mauges, entre les villes d'Angers, Cholet et Nantes.</p>",
     p2: "<h2>Tâches à réaliser </h2><p>Réaliser un applicatif web permettant une gestion informatique des documents pour le service d’urbanisme. Cet applicatif devait permettre l’ajout et la modification des documents, mais aussi un triage grâce à des filtres, et en sortir des statiques. De plus l’applicatif devait pouvoir générer des documents sous format PDF.</p>",
     p3: "<h2>Réalisation</h2><p>Accueil vers le site permettant le choix du type de document d'urbanisme.<br><img src='img/Stage1/accSite.png'> <br> <br> Accueil vers la partie Permis de Construire (exemple d'un onglets)<br><img src='img/Stage1/accPC.png'> <br> <br> Tableau visualisant tous les Permis de Construire<br><img src='img/Stage1/allPC.png'> <br> <br> Partie statistique des Permis de Construire<br><img src='img/Stage1/statPC.png'> <br> <br> Partie génération des documents (au choix) d'un Permis de Construire<br><img src='img/Stage1/genPC.png'> <br> <br></p>",
+}];
+
+const txtBenevole = [{
+    id: "0",
+    titre: "Responsable Pôle Développement BDE - Howld'up",
+    p1: "<p>Lors de ma première année à l’ESAIP, première année du cycle ingénieur, j’ai été approché par Maxence BOUCHET pour monter une liste pour un BDE (Bureau Des Élèves) et avoir le poste de responsables Développement. Après avoir accepté, nous nous sommes mis en place, avec les membres déjà présents pour organiser notre campagne (les différentes activités que nous voulions mettre en place pour inciter les gens à voter pour nous). Cependant, nous avons été rapidement confronté a un problème de taille suite aux annonces gouvernementale sur les différentes restrictions causé par la COVID-19.<br>Après notre prise en place dans le BDE déjà présents, j’ai été formé, par le responsable Développement déjà en place, pour connaître les différentes tâches à réaliser et les éléments déjà en place. La plus grande tâche à réaliser étant la maintenance et l’amélioration du site Asso’ESAIP. Le site Asso’ESAIP est un site permettant à tout étudiant de ESAIP de se tenir au courant de toutes les activités des clubs. Durant cette périodes, nous avons aussi mis en pace certaines fonctionnalités sur Asso’ESAIP, mais aussi corrigé certain bug.<br><br><br>Depuis le début de l’année scolaire, je suis donc devenu officiellement le responsable Développement après que l’ancien BDE soit parti. La première tâche qui m’a été attribué a été de mettre en place, sur Asso’ESAIP, un système permettant au nouveau esaipien de découvrir suite a un petit jeu de piste pour connaître leur parrain au sein de l’école. Suite à cela, il y a eu l’arrivée du nouveau BDE et j’ai donc dû à mon tour former les nouveaux arrivant sur les différentes tâches à réaliser, sur les outils déjà en place et sur Asso’ESAIP.<br><br><br>De plus, durant tout le long de l’année, avec le BDE nous avons mis en place plusieurs soirée et activités (notamment lors de la période d’intégration des élèves, mais aussi lors de l’inauguration du nouveau bâtiment de l’ESAIP). Ces différentes activités, ont majoritairement été organiser lors de nos réunion hebdomadaire et demandent souvent une participation d’un certain nombre de membre pour faciliter l’organisation, et permettre au personne sur place de pouvoir profiter de l’évènement en lui-même.</p>",
+    p2: "",
+    p3: "",
+}, {
+    id: "1",
+    titre: "Week-end d'Intégration - Howld'up",
+    p1: "<p>Après avoir été élu et formé au sein du BDE, notre liste a commencé à se réunir pour parler de l’événement majeur pour tout BDE, le WEI (Week-End d’Intégration) de l’année suivante.  Nous avons donc commencé à chercher dans un premier temps un lieu pouvant accueillir environ 500 étudiants pour que tous ceux qui le  veulent puissent participer. Cela nous a pris une bonne partie de notre temps dans un premier temps, entre les recherches de camping acceptant ce nombre d’étudiant, vérifier que les campings cherché ne se situe pas trop loin pour éviter de trop grand frais de déplacement et dans un même temps vérifier que le site permettent de faire une multitude d’activité sans trop de problème.<br><br><br>Suite à cette partie de recherche, lorsque nous avons trouvé notre camping, nous avons dû commencer à nous organiser sérieusement sur les différentes activités que nous allions proposer au participant durant toute la durée du WEI, cependant nous avons dû tout d’abords choisir le thème qui allais représenter notre WEI. Dans un même temps nous avons aussi commencer à nous organiser sur tout l’aspect pratique et nécessaire de ce week-end, par exemple cela concerne les transports, la nourriture, les boissons et le lieux de restauration.<br><br><br>Une fois avoir tout préparé, lors de la rentrée scolaire de 2021-2022, nous avons lancé la billetterie. Ayant eu une estimation du nombre de place prise, nous avons pu nous organiser assez rapidement sur la répartition des équipes pour les différentes activités, ainsi que pour les roulement pour les moments de restaurations.<br><br><br>Une fois sur place, nous avons fait face à un certain nombre d’imprévu et de problème d’organisation, avec certaines personnes qui ne respectait pas leur planning, obligeant certaines personnes à changer leur programmes. Cependant, mis à part ces quelques problèmes, nous n’avons pas rencontré de problèmes majeur. Nous avons tous profité de ce week-end et les élèves ont bien apprécié le lieux ainsi que les activités une fois sur place, mais aussi l’ambiance générale que nous nous sommes appliqué à construire durant tous le WEI.</p>",
+    p2: "",
+    p3: "",
 }];

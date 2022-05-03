@@ -1,0 +1,47 @@
+#benevoleGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+}
+
+.linkBenevole {
+    margin: auto;
+    width: 25%;
+    height: 45vh;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.linkBenevole:hover .benevoleHover {
+    display: flex;
+}
+
+.linkBenevole .benevoleHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: none;
+}
+
+.linkBenevole img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
