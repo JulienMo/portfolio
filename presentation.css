@@ -1,4 +1,4 @@
-#presentation{
+#presentation {
     font-weight: bold;
     text-align: center;
     padding-top: 200px;
@@ -10,14 +10,14 @@
     font-size: 2.2rem;
 }
 
-#presentation span{
+#presentation span {
     font-weight: bolder;
     font-weight: bold;
     font-size: 2.7rem;
     margin-bottom: 20px;
 }
 
-#presentation button{
+#presentation button {
     margin: 100px 0 80px 0;
     padding: 0.5rem 1.5rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -31,7 +31,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-#presentation button:hover{
+#presentation button:hover {
     border: 4px solid #290D6B;
     background-color: #290D6B;
     color: white;
